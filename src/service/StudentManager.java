@@ -1,6 +1,9 @@
 package service;
 
-
+import model.Student;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class StudentManager {
     private ArrayList<Student> students = new ArrayList<>();
