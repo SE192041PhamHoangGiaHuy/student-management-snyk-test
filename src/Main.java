@@ -19,41 +19,41 @@ public class Main {
 
             String choice = sc.nextLine();
 
-//            switch (choice) {
-//                case "1":
-//                    manager.addStudent(sc);
-//                    break;
-//                case "2":
-//                    manager.deleteStudent(sc);
-//                    break;
-//                case "3":
-//                    manager.searchStudent(sc);
-//                    break;
-//                case "4":
-//                    manager.displayAll();
-//                    break;
-//                case "0":
-//                    System.out.println("Exiting program...");
-//                    return;
-//                default:
-//                    System.out.println("❌ Invalid choice. Please try again.");
-//            }
-//
-//        }
-            if (choice == "1") {
-                manager.addStudent(sc);
-            } else if (choice == "2") {
-                manager.deleteStudent(sc);
-            } else if (choice == "3") {
-                manager.searchStudent(sc);
-            } else if (choice == "4") {
-                manager.displayAll();
-            } else if (choice == "0") {
-                System.out.println("Exiting program...");
-                return;
-            } else {
-                System.out.println("❌ Invalid choice. Please try again.");
-            }
-        }
+           switch (choice) {
+               case "1":
+                   manager.addStudent(sc);
+                   break;
+               case "2":
+                   manager.deleteStudent(sc);
+                   break;
+               case "3":
+                   manager.searchStudent(sc);
+                   break;
+               case "4":
+                   manager.displayAll();
+                   break;
+               case "0":
+                   System.out.println("Exiting program...");
+                   return;
+               default:
+                   System.out.println("❌ Invalid choice. Please try again.");
+           }
+
+       }
+        //     if (choice == "1") {
+        //         manager.addStudent(sc);
+        //     } else if (choice == "2") {
+        //         manager.deleteStudent(sc);
+        //     } else if (choice == "3") {
+        //         manager.searchStudent(sc);
+        //     } else if (choice == "4") {
+        //         manager.displayAll();
+        //     } else if (choice == "0") {
+        //         System.out.println("Exiting program...");
+        //         return;
+        //     } else {
+        //         System.out.println("❌ Invalid choice. Please try again.");
+        //     }
+        // }
     }
 }
